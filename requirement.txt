@@ -1,4 +1,1 @@
-streamlit>=1.24.0
-english-words==1.1.0
-codetiming==1.3.0
-wikipedia==1.4.0
+snowflake-connector-python
