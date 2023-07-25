@@ -1,10 +1,1 @@
-# Create the new environment in this directory
-python3 -m venv MY_ENV
-
-# Activate the environment
-source MY_ENV/bin/activate
-
-# Install snowflake-connector-python
-python3 -m pip install snowflake-connector-python
-
 snowflake-connector-python
