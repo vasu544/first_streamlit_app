@@ -1,8 +1,3 @@
-if st.sidebar.button("Clear All Cache"):
-    # Clear values from *all* memoized functions:
-    # i.e. clear values from both square and cube
-    st.experimental_memo.clear()
-  
 import streamlit
 import pandas
 
