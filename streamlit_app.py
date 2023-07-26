@@ -47,8 +47,8 @@ try:
            
         # print this data
         streamlit.dataframe(back_from_function)
-
-
+except URLError as e:
+    streamlit.text('Error')
 
 streamlit.header("The fruit load list contains:")
 
@@ -65,7 +65,7 @@ if streamlit.button('Get fruit load list'):
     streamlit.dataframe(my_data_row)
 
 
-except URLError as e:
+
     streamlit.stop()
 #streamlit.text("Hello from Snowflake:")
 #my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
