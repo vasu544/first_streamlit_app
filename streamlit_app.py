@@ -66,11 +66,11 @@ if streamlit.button('Get fruit load list'):
 
 
 #except URLError as e:
-    streamlit.stop()
+#    streamlit.stop()
 #streamlit.text("Hello from Snowflake:")
 #my_cur.execute("SELECT CURRENT_USER(), CURRENT_ACCOUNT(), CURRENT_REGION()")
 
 
-add_my_fruit=streamlit.text_input("What fruit would you like to add?")
-streamlit.write('Thanks for adding',add_my_fruit)
-my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.fruit_load_list values ('from streamlit')")
+#add_my_fruit=streamlit.text_input("What fruit would you like to add?")
+#streamlit.write('Thanks for adding',add_my_fruit)
+#my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.fruit_load_list values ('from streamlit')")
